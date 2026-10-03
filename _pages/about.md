@@ -12,10 +12,10 @@ I am a health services researcher and MSc student in the Faculty of Health Scien
 
 I am interested in how health and community services can work together to support older adults. My current work examines referral and information-sharing processes in social prescribing, including how digital tools can support connections between primary care and community-based services.
 
-My background combines research and community practice. I have worked on evidence synthesis, community-engaged research, and knowledge translation at the University of British Columbia, Trinity Western University, and Vancouver Coastal Health. As a Seniors Community Connector at the Langley Senior Resources Society, I supported older adults in identifying their goals and connecting with community resources.
-
 ![Jeffrey Wong speaking on a panel at a social prescribing conference](/images/IMG_8015.png)
 *Speaking on a [student panel at Canada's Social Prescribing Conference](/talks/2024-09-26-students-social-prescribing/) in 2024.*
+
+My background combines research and community practice. I have worked on evidence synthesis, community-engaged research, and knowledge translation at the University of British Columbia, Trinity Western University, and Vancouver Coastal Health. As a Seniors Community Connector at the Langley Senior Resources Society, I supported older adults in identifying their goals and connecting with community resources.
 
 ## Research interests
 
