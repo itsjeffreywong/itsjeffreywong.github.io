@@ -14,6 +14,10 @@ I am interested in how health and community services can work together to suppor
 
 My background combines research and community practice. I have worked on evidence synthesis, community-engaged research, and knowledge translation at the University of British Columbia, Trinity Western University, and Vancouver Coastal Health. As a Seniors Community Connector at the Langley Senior Resources Society, I supported older adults in identifying their goals and connecting with community resources.
 
+![Jeffrey Wong speaking on a panel at a social prescribing conference](/images/IMG_8015.png)
+
+*Speaking on a panel at a social prescribing conference.*
+
 ## Research interests
 
 - Social prescribing and connections between health and community services
