@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a health services researcher and MSc student in the Faculty of Health Sciences at Simon Fraser University studying social prescribing, primary care, and digital health implementation. I am part of the [Healthy Ecologies and Lifestyles (HEAL) Lab](https://heal-lab.ca), where I work under the supervision of [Dr. Kiffer G. Card](https://sfu.ca/fhs/about/people/profiles/kiffer-card).
+I am a health services researcher and MSc student in the Faculty of Health Sciences at Simon Fraser University studying social prescribing, primary care, and digital health implementation. I am a part of [Dr. Kiffer G. Card](https://sfu.ca/fhs/about/people/profiles/kiffer-card)'s [Healthy Ecologies and Lifestyles Lab](https://heal-lab.ca).
 
 I am interested in how health and community services can work together to support older adults. My current work examines referral and information-sharing processes in social prescribing, including how digital tools can support connections between primary care and community-based services.
 
