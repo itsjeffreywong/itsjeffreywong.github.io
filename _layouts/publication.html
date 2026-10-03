@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+  <article class="page">
+    <div class="page__inner-wrap">
+      <header>
+        <h1 class="page__title">{{ page.title | escape }}</h1>
+        <p><em>{{ page.venue | escape }}</em> &middot; {{ page.publication_year }}</p>
+      </header>
+      <section class="page__content">
+        {{ content }}
+        <h2>Citation</h2>
+        <p>{{ page.citation }}</p>
+        <p><a href="{{ page.paperurl }}" class="btn">{{ page.paper_label | default: 'Read publication' }}</a></p>
+        <p><a href="{{ '/publications/' | relative_url }}">All publications</a></p>
+      </section>
+    </div>
+  </article>
+</div>

@@ -80,12 +80,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  reports:
+    title: 'Reports'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -121,7 +121,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # show this again if you add a blog
   path                   : # blank (default) uses feed.xml
 
 
@@ -140,7 +140,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_description           : *description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -188,6 +188,59 @@ exclude:
   - README
   - tmp
   - vendor
+  # Hide the original template examples if they have not been deleted yet.
+  - _data/authors.yml
+  - _data/comments/layout-comments/comment-1470944006665.yml
+  - _data/comments/layout-comments/comment-1470944162041.yml
+  - _data/comments/markup-syntax-highlighting/comment-1470969665387.yml
+  - _data/comments/welcome-to-jekyll/comment-1470942205700.yml
+  - _data/comments/welcome-to-jekyll/comment-1470942247755.yml
+  - _data/comments/welcome-to-jekyll/comment-1470942265819.yml
+  - _data/comments/welcome-to-jekyll/comment-1470942493518.yml
+  - _data/cv.json
+  - _drafts/post-draft.md
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/cv-json.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/portfolio.html
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/terms.md
+  - _pages/year-archive.html
+  - _posts/2012-08-14-blog-post-1.md
+  - _posts/2013-08-14-blog-post-2.md
+  - _posts/2014-08-14-blog-post-3.md
+  - _posts/2015-08-14-blog-post-4.md
+  - _posts/2199-01-01-future-post.md
+  - _publications/2009-10-01-paper-title-number-1.md
+  - _publications/2010-10-01-paper-title-number-2.md
+  - _publications/2015-10-01-paper-title-number-3.md
+  - _publications/2024-02-17-paper-title-number-4.md
+  - _publications/2025-06-08-paper-title-number-5.md
+  - _talks/2012-03-01-talk-1.md
+  - _talks/2013-03-01-tutorial-1.md
+  - _talks/2014-02-01-talk-2.md
+  - _talks/2014-03-01-talk-3.md
+  - _teaching/2014-spring-teaching-1.md
+  - _teaching/2015-spring-teaching-2.md
+  - files/bibtex1.bib
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - files/slides1.pdf
+  - files/slides2.pdf
+  - files/slides3.pdf
+  - talkmap/leaflet_dist/MarkerCluster.Default.css
+  - talkmap/leaflet_dist/MarkerCluster.css
+  - talkmap/leaflet_dist/leaflet.markercluster-src.js
+  - talkmap/leaflet_dist/leaflet.markercluster.js
+  - talkmap/leaflet_dist/screen.css
+  - talkmap/map.html
+  - talkmap/org-locations.js
 keep_files:
   - .git
   - .svn

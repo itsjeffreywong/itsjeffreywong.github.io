@@ -1,0 +1,6 @@
+<article class="publication-entry">
+  <p>{{ post.citation }}<br>
+    <a href="{{ post.paperurl }}">{{ post.paper_label | default: 'Read publication' }}</a>
+    &middot; <a href="{{ post.url | relative_url }}">Details</a>
+  </p>
+</article>
