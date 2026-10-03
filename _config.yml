@@ -23,7 +23,7 @@ repository               : "itsjeffreywong.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Jeffrey Wong.jpg"
   name             : "Jeffrey Wong"
   bio              : "MSc Health Sciences Student"
   employer         : "Simon Fraser University"
