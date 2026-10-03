@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "en-CA"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Jeffrey Wong"
 title_separator          : "-"
@@ -25,10 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Jeffrey Wong"
-  bio              : "MSc Student<br>Faculty of Health Sciences<br>Simon Fraser University"
-  employer         : "Simon Fraser University"
-  location         : "Burnaby, Canada"
-  uri              : # URL
+  affiliation      : "Faculty of Health Sciences<br>Simon Fraser University"
   email            : "jow3@sfu.ca" 
 
   # Academic websites
