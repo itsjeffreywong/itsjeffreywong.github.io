@@ -21,7 +21,7 @@ September 2026–present · Supervisor: Dr. Kiffer Card
 
 Provincial scale-up and evaluation of social prescribing for older adults at the Healthy Ecologies and Lifestyles (HEAL) Lab.
 
-**Research Assistant and Knowledge Translation Lead** — MacIsaac School of Nursing, University of British Columbia<br>
+**Research Assistant and Knowledge Translation Lead** — Innovation in Dementia and Aging (IDEA) Lab, MacIsaac School of Nursing, The University of British Columbia<br>
 January 2025–September 2026 · Supervisor: Dr. Lillian Hung
 
 Led a scoping review of community-based social supports for 2S/LGBTQ+ older adults, collaborated with community partners throughout the review, and managed lab social media.
