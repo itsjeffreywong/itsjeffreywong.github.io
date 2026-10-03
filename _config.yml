@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Jeffrey Wong"
-  affiliation      : "Faculty of Health Sciences<br>Simon Fraser University"
+  bio              : "Faculty of Health Sciences<br>Simon Fraser University"
   email            : "jow3@sfu.ca" 
 
   # Academic websites
