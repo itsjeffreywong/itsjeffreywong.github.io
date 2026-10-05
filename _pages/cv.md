@@ -16,27 +16,27 @@ Supervisor: Dr. Kiffer Card
 
 ## Research experience
 
-**Graduate Research Assistant**
-[Healthy Ecologies and Lifestyles (HEAL) Lab](https://heal-lab.ca)
+**Graduate Research Assistant**<br>
+[Healthy Ecologies and Lifestyles (HEAL) Lab](https://heal-lab.ca)<br>
 Faculty of Health Sciences, Simon Fraser University<br>
 September 2026–present · Supervisor: Dr. Kiffer Card
 
 Provincial scale-up and evaluation of social prescribing for older adults in British Columbia.
 
-**Research Assistant and Knowledge Translation Lead**
-[Innovation in Dementia and Aging (IDEA) Lab](https://idea.nursing.ubc.ca)
+**Research Assistant and Knowledge Translation Lead**<br>
+[Innovation in Dementia and Aging (IDEA) Lab](https://idea.nursing.ubc.ca)<br>
 MacIsaac School of Nursing, The University of British Columbia<br>
 January 2025–September 2026 · Supervisor: Dr. Lillian Hung
 
 Led a scoping review of community-based social supports for 2S/LGBTQ+ older adults, collaborated with community partners throughout the review, and managed lab social media.
 
-**Research Assistant**
+**Research Assistant**<br>
 Department of Psychology, Trinity Western University<br>
 November 2025–June 2026 · Supervisor: Dr. Yeeun Archer Lee
 
 Contributed to a brief report and infographic on loneliness and social isolation among sexual and gender minority older adults, including secondary analysis of the Canadian Social Connection Survey.
 
-**Research Assistant**
+**Research Assistant**<br>
 Vancouver Coastal Health<br>
 September 2023–December 2024 · Supervisor: Ms. Margurite Wong
 
@@ -44,11 +44,11 @@ Supported implementation and evaluation of a virtual seated dance program for ol
 
 ## Teaching
 
-**Graduate Teaching Assistant**
+**Graduate Teaching Assistant**<br>
 Faculty of Health Sciences, Simon Fraser University<br>
 September 2026–present · HSCI 341: Fundamental Epidemiological Concepts and Approaches
 
-**Teaching Assistant**
+**Teaching Assistant**<br>
 Department of Sociology and Anthropology, Trinity Western University<br>
 January–May 2026 · SOCI 101: Introduction to Sociology
 
@@ -56,12 +56,12 @@ See the [teaching page]({{ '/teaching/' | relative_url }}) for details.
 
 ## Community practice
 
-**Seniors Community Connector**
+**Seniors Community Connector**<br>
 Langley Senior Resources Society, 2025–2026
 
 Co-developed wellness plans with older adults aged 65 and over, connected people with community resources, and supported home visits and meal deliveries.
 
-**Human Services Practicum Student**
+**Human Services Practicum Student**<br>
 Langley Senior Resources Society, 2025
 
 Developed a program evaluation framework and follow-up survey for social prescribing referrals from health services to the community, and conducted three-month follow-up calls.
