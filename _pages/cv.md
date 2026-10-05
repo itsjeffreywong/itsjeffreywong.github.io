@@ -16,43 +16,53 @@ Supervisor: Dr. Kiffer Card
 
 ## Research experience
 
-**Graduate Research Assistant** — Faculty of Health Sciences, Simon Fraser University<br>
+**Graduate Research Assistant**
+[Healthy Ecologies and Lifestyles (HEAL) Lab](https://heal-lab.ca)
+Faculty of Health Sciences, Simon Fraser University<br>
 September 2026–present · Supervisor: Dr. Kiffer Card
 
-Provincial scale-up and evaluation of social prescribing for older adults at the Healthy Ecologies and Lifestyles (HEAL) Lab.
+Provincial scale-up and evaluation of social prescribing for older adults in British Columbia.
 
-**Research Assistant and Knowledge Translation Lead** — Innovation in Dementia and Aging (IDEA) Lab, MacIsaac School of Nursing, The University of British Columbia<br>
+**Research Assistant and Knowledge Translation Lead**
+[Innovation in Dementia and Aging (IDEA) Lab](https://idea.nursing.ubc.ca)
+MacIsaac School of Nursing, The University of British Columbia<br>
 January 2025–September 2026 · Supervisor: Dr. Lillian Hung
 
 Led a scoping review of community-based social supports for 2S/LGBTQ+ older adults, collaborated with community partners throughout the review, and managed lab social media.
 
-**Research Assistant** — Department of Psychology, Trinity Western University<br>
+**Research Assistant**
+Department of Psychology, Trinity Western University<br>
 November 2025–June 2026 · Supervisor: Dr. Yeeun Archer Lee
 
 Contributed to a brief report and infographic on loneliness and social isolation among sexual and gender minority older adults, including secondary analysis of the Canadian Social Connection Survey.
 
-**Research Assistant** — Vancouver Coastal Health<br>
+**Research Assistant**
+Vancouver Coastal Health<br>
 September 2023–December 2024 · Supervisor: Ms. Margurite Wong
 
 Supported implementation and evaluation of a virtual seated dance program for older adults in long-term care, with dissemination at research and gerontology conferences.
 
 ## Teaching
 
-**Graduate Teaching Assistant** — Faculty of Health Sciences, Simon Fraser University<br>
+**Graduate Teaching Assistant**
+Faculty of Health Sciences, Simon Fraser University<br>
 September 2026–present · HSCI 341: Fundamental Epidemiological Concepts and Approaches
 
-**Teaching Assistant** — Department of Sociology and Anthropology, Trinity Western University<br>
+**Teaching Assistant**
+Department of Sociology and Anthropology, Trinity Western University<br>
 January–May 2026 · SOCI 101: Introduction to Sociology
 
 See the [teaching page]({{ '/teaching/' | relative_url }}) for details.
 
 ## Community practice
 
-**Seniors Community Connector** — Langley Senior Resources Society, 2025–2026
+**Seniors Community Connector**
+Langley Senior Resources Society, 2025–2026
 
 Co-developed wellness plans with older adults aged 65 and over, connected people with community resources, and supported home visits and meal deliveries.
 
-**Human Services Practicum Student** — Langley Senior Resources Society, 2025
+**Human Services Practicum Student**
+Langley Senior Resources Society, 2025
 
 Developed a program evaluation framework and follow-up survey for social prescribing referrals from health services to the community, and conducted three-month follow-up calls.
 
