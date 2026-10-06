@@ -1,9 +1,11 @@
 ---
 date: '2023-12-01'
-title: 'Dancing to wellness: Promoting health in older adults living in long-term care homes.'
+title: 'Dancing to wellness: Promoting health in older adults living in long-term care homes'
 type: Oral presentation
 venue: Vancouver Coastal Health Research Institute Richmond Research Showcase 2023
 location: Richmond, BC, Canada
+latitude: 49.17003
+longitude: -123.13683
 collection: talks
 permalink: /talks/2023-12-01-dancing-to-wellness/
 talk_type: Oral presentation
