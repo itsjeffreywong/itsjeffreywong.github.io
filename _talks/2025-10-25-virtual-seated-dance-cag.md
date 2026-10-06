@@ -8,11 +8,11 @@ latitude: 45.5017
 longitude: -73.5673
 collection: talks
 permalink: /talks/2025-10-25-virtual-seated-dance-cag/
-talk_type: Co-authored poster
+talk_type: Poster
 share: false
 ---
 
-**Co-authored poster** · Canadian Association on Gerontology 54th Annual Scientific and Educational Meeting · Montréal, QC, Canada
+**Poster** · Canadian Association on Gerontology 54th Annual Scientific and Educational Meeting · Montréal, QC, Canada
 
 **Authors:** Wong, M. E., Jego, M., <strong>Wong, J.</strong>, Pratt, S., Sze, T., Lau, Y., Chung, H., Davydova, D., Tam, G., &amp; Balneaves, L. G.
 
