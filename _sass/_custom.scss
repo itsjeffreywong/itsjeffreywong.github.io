@@ -1,3 +1,4 @@
+// Google Scholar Icon
 .author__urls img.author-profile-icon {
   display: inline-block;
   width: 1em !important;
@@ -6,4 +7,31 @@
   margin-right: 0.45em;
   vertical-align: -0.12em;
   object-fit: contain;
+}
+
+// Presentation Map
+#presentation-map {
+  width: 100%;
+  height: 500px;
+  margin: 1.5rem 0 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.presentation-map-popup {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.presentation-map-popup hr {
+  margin: 0.5rem 0;
+}
+
+.presentation-map-entry {
+  margin-bottom: 0.8rem;
+}
+
+.presentation-map-entry:last-child {
+  margin-bottom: 0;
 }
