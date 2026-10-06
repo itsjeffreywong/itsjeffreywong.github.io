@@ -124,3 +124,29 @@
   border: 0;
   padding-right: 0.35rem;
 }
+
+/* General interaction polish */
+a {
+  transition: color 0.18s ease;
+}
+
+.page__content a,
+.archive a {
+  text-underline-offset: 0.18em;
+}
+
+.greedy-nav a,
+.masthead__menu-item a {
+  transition: color 0.18s ease, border-color 0.18s ease;
+}
+
+.presentation-map-entry,
+.research-card {
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+@media (hover: hover) {
+  .research-card:hover {
+    transform: translateY(-2px);
+  }
+}
