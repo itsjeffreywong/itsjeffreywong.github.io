@@ -1,6 +1,6 @@
 ---
 date: '2025-10-03'
-title: 'Co-designing immersive virtual reality with Indigenous communities: Scoping review of best practices & implementation strategies from rapid-learning cycles in acute and long-term care.'
+title: 'Co-designing immersive virtual reality with Indigenous communities: Scoping review of best practices & implementation strategies from rapid-learning cycles in acute and long-term care'
 type: Poster
 venue: Trinity Western University CREATE 2025
 location: Langley, BC, Canada
