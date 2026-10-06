@@ -1,39 +1,75 @@
 <link
   rel="stylesheet"
   href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-  crossorigin=""
->
+/>
+
+<style>
+  #presentation-map {
+    width: 100%;
+    height: 480px;
+    margin: 1rem 0 2rem;
+    border-radius: 12px;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .presentation-map-entry {
+    margin-bottom: 0.8rem;
+    line-height: 1.35;
+  }
+
+  .presentation-map-entry:last-child {
+    margin-bottom: 0;
+  }
+
+  #presentation-map-empty {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+</style>
 
 <div id="presentation-map"></div>
+<div id="presentation-map-empty" style="display:none;">
+  No mapped presentations yet.
+</div>
 
-<script
-  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-  crossorigin="">
-</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-
+(function () {
   const talks = [
-    {% assign mapped_talks = site.talks | where: "map", true %}
+    {% assign first_marker = true %}
+    {% assign mapped_talks = site.talks | sort: "date" | reverse %}
+
     {% for talk in mapped_talks %}
-      {
-        title: {{ talk.title | jsonify }},
-        venue: {{ talk.venue | jsonify }},
-        location: {{ talk.location | jsonify }},
-        date: {{ talk.date | date: "%Y-%m-%d" | jsonify }},
-        year: {{ talk.date | date: "%Y" | jsonify }},
-        latitude: {{ talk.latitude | jsonify }},
-        longitude: {{ talk.longitude | jsonify }},
-        url: {{ talk.url | relative_url | jsonify }}
-      }{% unless forloop.last %},{% endunless %}
+      {% if talk.latitude and talk.longitude %}
+
+        {% unless first_marker %},{% endunless %}
+
+        {
+          title: {{ talk.title | jsonify }},
+          type: {{ talk.talk_type | default: talk.type | jsonify }},
+          venue: {{ talk.venue | jsonify }},
+          location: {{ talk.location | jsonify }},
+          date: {{ talk.date | date: "%Y-%m-%d" | jsonify }},
+          year: {{ talk.date | date: "%Y" | jsonify }},
+          latitude: {{ talk.latitude | jsonify }},
+          longitude: {{ talk.longitude | jsonify }},
+          url: {{ talk.url | relative_url | jsonify }}
+        }
+
+        {% assign first_marker = false %}
+
+      {% endif %}
     {% endfor %}
   ];
 
-  const validTalks = talks.filter(t =>
-    t.latitude !== null &&
-    t.longitude !== null
-  );
+  if (talks.length === 0) {
+    document.getElementById("presentation-map").style.display = "none";
+    document.getElementById("presentation-map-empty").style.display = "block";
+    return;
+  }
 
   const map = L.map("presentation-map", {
     scrollWheelZoom: false
@@ -48,11 +84,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   ).addTo(map);
 
-  // Group presentations occurring at the same coordinates
   const places = {};
 
-  validTalks.forEach(talk => {
-    const key = `${talk.latitude},${talk.longitude}`;
+  talks.forEach(function (talk) {
+    const key = talk.latitude + "," + talk.longitude;
 
     if (!places[key]) {
       places[key] = {
@@ -68,27 +103,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const bounds = [];
 
-  Object.values(places).forEach(place => {
+  Object.keys(places).forEach(function (key) {
+    const place = places[key];
 
-    const presentations = place.talks
-      .sort((a, b) => b.date.localeCompare(a.date))
-      .map(talk => `
+    const presentationHtml = place.talks.map(function (talk) {
+      return `
         <div class="presentation-map-entry">
           <a href="${talk.url}">
             <strong>${talk.title}</strong>
           </a>
           <br>
-          ${talk.venue || ""}
-          ${talk.year ? ` · ${talk.year}` : ""}
+          ${talk.type || ""}
+          ${talk.venue ? " · " + talk.venue : ""}
+          ${talk.year ? " · " + talk.year : ""}
         </div>
-      `)
-      .join("");
+      `;
+    }).join("");
 
     const popup = `
-      <div class="presentation-map-popup">
-        <strong>${place.location}</strong>
+      <div>
+        <strong>${place.location || ""}</strong>
         <hr>
-        ${presentations}
+        ${presentationHtml}
       </div>
     `;
 
@@ -101,16 +137,13 @@ document.addEventListener("DOMContentLoaded", function () {
     bounds.push([place.latitude, place.longitude]);
   });
 
-  if (bounds.length > 1) {
+  if (bounds.length === 1) {
+    map.setView(bounds[0], 6);
+  } else {
     map.fitBounds(bounds, {
       padding: [35, 35],
       maxZoom: 6
     });
-  } else if (bounds.length === 1) {
-    map.setView(bounds[0], 6);
-  } else {
-    map.setView([45, -95], 3);
   }
-
-});
+})();
 </script>
