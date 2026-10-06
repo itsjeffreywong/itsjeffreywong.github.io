@@ -4,6 +4,8 @@ title: '“They’re so cute that you wanna hug them”: Perspectives of older a
 type: Oral presentation
 venue: Northwest Robotics Symposium 2025, Simon Fraser University
 location: Vancouver, BC, Canada
+latitude: 49.2827
+longitude: -123.1207
 collection: talks
 permalink: /talks/2025-06-20-lovot-robotics-symposium/
 talk_type: Oral presentation
