@@ -129,15 +129,37 @@
       </div>
     `;
 
-    L.circleMarker([place.latitude, place.longitude], {
-      radius: 7,
-      weight: 2,
-      fillOpacity: 0.9
-    })
-      .addTo(map)
-      .bindPopup(popup, {
-        maxWidth: 340
-      });
+const marker = L.circleMarker(
+  [place.latitude, place.longitude],
+  {
+    radius: 7,
+    color: "#ffffff",
+    weight: 2,
+    fillColor: "#2f7f86",
+    fillOpacity: 0.92
+  }
+)
+  .addTo(map)
+  .bindPopup(popup, {
+    maxWidth: 360,
+    className: "presentation-popup-shell"
+  });
+
+marker.on("mouseover", function () {
+  this.setRadius(9);
+  this.setStyle({
+    fillColor: "#23646a",
+    fillOpacity: 1
+  });
+});
+
+marker.on("mouseout", function () {
+  this.setRadius(7);
+  this.setStyle({
+    fillColor: "#2f7f86",
+    fillOpacity: 0.92
+  });
+});
 
     bounds.push([place.latitude, place.longitude]);
   });
