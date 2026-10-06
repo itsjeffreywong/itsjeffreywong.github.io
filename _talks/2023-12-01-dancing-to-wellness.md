@@ -4,8 +4,8 @@ title: 'Dancing to wellness: Promoting health in older adults living in long-ter
 type: Oral presentation
 venue: Vancouver Coastal Health Research Institute Richmond Research Showcase 2023
 location: Richmond, BC, Canada
-latitude: 49.17003
-longitude: -123.13683
+latitude: 49.2827
+longitude: -123.1207
 collection: talks
 permalink: /talks/2023-12-01-dancing-to-wellness/
 talk_type: Oral presentation
