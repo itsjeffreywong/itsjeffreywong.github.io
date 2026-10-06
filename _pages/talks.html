@@ -8,15 +8,21 @@ description: "Conference presentations, posters, and workshops contributed to by
 
 <p>Conference presentations, posters, and workshops I have presented or co-authored.</p>
 
-## Where I've presented
+<h2>Where I've presented</h2>
+
 {% include presentation-map.html %}
 
 {% assign talks = site.talks | sort: 'date' | reverse %}
+
 {% for post in talks %}
-  {% assign year = post.date | date: '%Y' %}
-  {% if year != previous_year %}
-    <h2>{{ year }}</h2>
-    {% assign previous_year = year %}
-  {% endif %}
-  {% include archive-single-talk.html %}
+
+{% assign year = post.date | date: '%Y' %}
+
+{% if year != previous_year %}
+<h2>{{ year }}</h2>
+{% assign previous_year = year %}
+{% endif %}
+
+{% include archive-single-talk.html %}
+
 {% endfor %}
