@@ -145,10 +145,12 @@ const marker = L.circleMarker(
 )
   .addTo(map)
   .bindPopup(popup, {
-    maxWidth: 360,
-    className: "presentation-popup-shell"
+    minWidth: 280,
+    maxWidth: 340,
+    maxHeight: 280,
+    className: "presentation-popup-shell",
+    autoPanPadding: [25, 25]
   });
-
 marker.on("mouseover", function () {
   this.setRadius(9);
   this.setStyle({
