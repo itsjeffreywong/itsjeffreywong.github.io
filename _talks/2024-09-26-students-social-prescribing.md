@@ -4,6 +4,8 @@ title: How to harness the power of students to support the Canadian social presc
 type: Workshop
 venue: 'Canada''s Social Prescribing Conference: Advancing Social Prescribing for Health and Wellbeing'
 location: Toronto, ON, Canada
+latitude: 43.6532
+longitude: -79.3832
 collection: talks
 permalink: /talks/2024-09-26-students-social-prescribing/
 talk_type: Workshop
