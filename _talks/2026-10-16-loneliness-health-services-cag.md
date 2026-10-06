@@ -1,6 +1,6 @@
 ---
 date: '2026-10-16'
-title: 'Association between loneliness and perceived access to and satisfaction with health services among Canadian older adults: Findings from a cross-sectional survey.'
+title: 'Association between loneliness and perceived access to and satisfaction with health services among Canadian older adults: Findings from a cross-sectional survey'
 type: Poster
 venue: Canadian Association on Gerontology 55th Annual Scientific and Educational Meeting
 location: Charlottetown, PE, Canada
