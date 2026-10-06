@@ -150,3 +150,47 @@ a {
     transform: translateY(-2px);
   }
 }
+
+// Research Cards
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.research-card {
+  padding: 1.1rem 1.15rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  background: #fff;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.research-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.55rem;
+  font-size: 1rem;
+}
+
+.research-card p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media (hover: hover) {
+  .research-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border-color: rgba(47, 127, 134, 0.35);
+  }
+}
+
+@media (max-width: 768px) {
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+}
