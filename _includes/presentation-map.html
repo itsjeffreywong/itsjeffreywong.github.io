@@ -129,7 +129,11 @@
       </div>
     `;
 
-    L.marker([place.latitude, place.longitude])
+    L.circleMarker([place.latitude, place.longitude], {
+      radius: 7,
+      weight: 2,
+      fillOpacity: 0.9
+    })
       .addTo(map)
       .bindPopup(popup, {
         maxWidth: 340
