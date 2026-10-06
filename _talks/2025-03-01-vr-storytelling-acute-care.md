@@ -1,6 +1,6 @@
 ---
 date: '2025-03-01'
-title: Supporting connection through VR storytelling in acute care settings.
+title: Supporting connection through VR storytelling in acute care settings
 type: Oral presentation
 venue: UBC PATHS to Cure Neuroscience Research Conference
 location: Vancouver, BC, Canada
