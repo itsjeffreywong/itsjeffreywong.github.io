@@ -4,6 +4,8 @@ title: 'Co-designing immersive virtual reality with Indigenous communities: Scop
 type: Poster
 venue: Trinity Western University CREATE 2025
 location: Langley, BC, Canada
+latitude: 49.120278
+longitude: -122.659722
 collection: talks
 permalink: /talks/2025-10-03-indigenous-vr-co-design/
 talk_type: Poster
