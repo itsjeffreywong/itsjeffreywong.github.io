@@ -15,10 +15,30 @@ My background combines research and community practice. I have worked on evidenc
 
 ## Research interests
 
-- Social prescribing and connections between health and community services
-- Primary care and health services research
-- Digital health implementation
-- Aging, social connection, and inclusive community supports
+<div class="research-grid">
+
+  <div class="research-card">
+    <h3>Social prescribing and primary care</h3>
+    <p>
+      How community-based supports can be integrated into primary care and coordinated across health and social care.
+    </p>
+  </div>
+
+  <div class="research-card">
+    <h3>Healthy aging & community support</h3>
+    <p>
+      How social connection, community resources, and inclusive supports shape well-being in later life.
+    </p>
+  </div>
+
+  <div class="research-card">
+    <h3>Digital health implementation</h3>
+    <p>
+      How referral, information-sharing, and case-management tools shape implementation in real-world settings.
+    </p>
+  </div>
+
+</div>
 
 Explore my [research]({{ '/research/' | relative_url }}), [publications]({{ '/publications/' | relative_url }}), and [CV]({{ '/cv/' | relative_url }}).
 
