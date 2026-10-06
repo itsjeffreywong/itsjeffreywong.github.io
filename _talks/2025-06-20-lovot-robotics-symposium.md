@@ -1,6 +1,6 @@
 ---
 date: '2025-06-20'
-title: '“They’re so cute that you wanna hug them”: Perspectives of older adults, people living with dementia, and their caregivers on LOVOT in LTC.'
+title: '“They’re so cute that you wanna hug them”: Perspectives of older adults, people living with dementia, and their caregivers on LOVOT in LTC'
 type: Oral presentation
 venue: Northwest Robotics Symposium 2025, Simon Fraser University
 location: Vancouver, BC, Canada
