@@ -1,6 +1,6 @@
 ---
 date: '2025-10-25'
-title: 'Virtual seated dance program for older adults in long-term care homes: A pilot study on engagement and wellbeing.'
+title: 'Virtual seated dance program for older adults in long-term care homes: A pilot study on engagement and wellbeing'
 type: Poster
 venue: Canadian Association on Gerontology 54th Annual Scientific and Educational Meeting
 location: Montréal, QC, Canada
