@@ -35,3 +35,65 @@
 .presentation-map-entry:last-child {
   margin-bottom: 0;
 }
+
+// Presentation Map Markers
+.leaflet-interactive {
+  transition:
+    r 0.15s ease,
+    fill 0.15s ease,
+    fill-opacity 0.15s ease;
+  cursor: pointer;
+}
+
+/* Popup container */
+.presentation-popup-shell .leaflet-popup-content-wrapper {
+  border-radius: 12px;
+  padding: 0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.presentation-popup-shell .leaflet-popup-content {
+  margin: 0;
+  width: 300px !important;
+  max-width: 300px;
+}
+
+/* Little triangle underneath */
+.presentation-popup-shell .leaflet-popup-tip {
+  box-shadow: none;
+}
+
+/* Popup content */
+.presentation-map-popup {
+  padding: 1rem 1.05rem;
+}
+
+.presentation-map-location {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.presentation-map-entry {
+  padding: 0.75rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  line-height: 1.4;
+}
+
+.presentation-map-entry:first-of-type {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.presentation-map-entry:last-child {
+  padding-bottom: 0;
+}
+
+.presentation-map-entry a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.presentation-map-entry a:hover {
+  text-decoration: underline;
+}
