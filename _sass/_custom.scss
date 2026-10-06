@@ -194,3 +194,37 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
+// Teal Menu Bar
+/* Teal top navigation */
+.masthead {
+  background: #2f7f86;
+  border-bottom: none;
+}
+
+.greedy-nav {
+  background: #2f7f86;
+}
+
+/* Site name + menu links */
+.greedy-nav a,
+.masthead__menu-item a {
+  color: #ffffff !important;
+}
+
+/* Subtle hover */
+.greedy-nav a:hover,
+.masthead__menu-item a:hover {
+  color: rgba(255, 255, 255, 0.78) !important;
+}
+
+/* Mobile "more" button */
+.greedy-nav button {
+  background: #2f7f86;
+}
+
+.greedy-nav button .navicon,
+.greedy-nav button .navicon::before,
+.greedy-nav button .navicon::after {
+  background: #ffffff;
+}
