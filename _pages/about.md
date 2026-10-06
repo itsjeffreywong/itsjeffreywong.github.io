@@ -20,7 +20,7 @@ My background combines research and community practice. I have worked on evidenc
   <div class="research-card">
     <h3>Social prescribing and primary care</h3>
     <p>
-      How community-based supports can be integrated into primary care and coordinated across health and social care.
+      How social prescribing can be integrated into primary care and coordinated across health and social care.
     </p>
   </div>
 
