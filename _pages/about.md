@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "About"
 author_profile: true
 description: "Jeffrey Wong is an MSc student in the Faculty of Health Sciences at Simon Fraser University studying social prescribing, primary care, and digital health implementation."
 redirect_from:
