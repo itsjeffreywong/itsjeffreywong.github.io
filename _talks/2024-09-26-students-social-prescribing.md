@@ -1,6 +1,6 @@
 ---
 date: '2024-09-26'
-title: How to harness the power of students to support the Canadian social prescribing movement.
+title: How to harness the power of students to support the Canadian social prescribing movement
 type: Workshop
 venue: 'Canada''s Social Prescribing Conference: Advancing Social Prescribing for Health and Wellbeing'
 location: Toronto, ON, Canada
