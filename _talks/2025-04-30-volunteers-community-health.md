@@ -1,6 +1,6 @@
 ---
 date: '2025-04-30'
-title: 'Engaging volunteers in community health: A rapid systematic review of their role in diabetes self-management and social prescribing.'
+title: 'Engaging volunteers in community health: A rapid systematic review of their role in diabetes self-management and social prescribing'
 type: Co-authored oral presentation
 venue: 3rd Interdisciplinary Conference in Rehabilitation Science of British Columbia
 location: Vancouver, BC, Canada
