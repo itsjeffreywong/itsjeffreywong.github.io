@@ -1,9 +1,11 @@
 ---
 date: '2025-10-25'
-title: 'Community-based social supports for 2S/LGBTQ+ older adults in Canada: Preliminary findings from a scoping review.'
+title: 'Community-based social supports for 2S/LGBTQ+ older adults in Canada: Preliminary findings from a scoping review'
 type: Poster
 venue: Canadian Association on Gerontology 54th Annual Scientific and Educational Meeting
 location: Montréal, QC, Canada
+latitude: 45.5017
+longitude: -73.5673
 collection: talks
 permalink: /talks/2025-10-25-lgbtq-older-adults-social-supports/
 talk_type: Poster
