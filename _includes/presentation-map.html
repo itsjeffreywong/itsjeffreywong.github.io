@@ -111,23 +111,27 @@
       return `
         <div class="presentation-map-entry">
           <a href="${talk.url}">
-            <strong>${talk.title}</strong>
-          </a>
-          <br>
-          ${talk.type || ""}
-          ${talk.venue ? " · " + talk.venue : ""}
-          ${talk.year ? " · " + talk.year : ""}
-        </div>
-      `;
-    }).join("");
+            ${talk.title}
+      </a>
+      <br>
+      <span>
+        ${talk.type || ""}
+        ${talk.venue ? " · " + talk.venue : ""}
+        ${talk.year ? " · " + talk.year : ""}
+      </span>
+    </div>
+  `;
+}).join("");
 
-    const popup = `
-      <div>
-        <strong>${place.location || ""}</strong>
-        <hr>
-        ${presentationHtml}
-      </div>
-    `;
+const popup = `
+  <div class="presentation-map-popup">
+    <div class="presentation-map-location">
+      ${place.location || ""}
+    </div>
+
+    ${presentationHtml}
+  </div>
+`;
 
 const marker = L.circleMarker(
   [place.latitude, place.longitude],
