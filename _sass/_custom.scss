@@ -196,35 +196,60 @@ a {
 }
 
 // Teal Menu Bar
-/* Teal top navigation */
+/* ===== Top navigation ===== */
+
+:root {
+  --jw-teal: #2f7f86;
+}
+
+/* Make every layer of the masthead teal */
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.greedy-nav,
+.greedy-nav .visible-links {
+  background: var(--jw-teal) !important;
+}
+
 .masthead {
-  background: #2f7f86;
-  border-bottom: none;
+  border-bottom: none !important;
 }
 
-.greedy-nav {
-  background: #2f7f86;
-}
-
-/* Site name + menu links */
+/* Site name + navigation links */
 .greedy-nav a,
+.greedy-nav .visible-links a,
 .masthead__menu-item a {
   color: #ffffff !important;
 }
 
-/* Subtle hover */
+/* Active page underline */
+.greedy-nav .visible-links a::before {
+  background: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Hover */
 .greedy-nav a:hover,
+.greedy-nav .visible-links a:hover,
 .masthead__menu-item a:hover {
   color: rgba(255, 255, 255, 0.78) !important;
 }
 
-/* Mobile "more" button */
+/* Mobile / overflow button */
 .greedy-nav button {
-  background: #2f7f86;
+  background: var(--jw-teal) !important;
 }
 
 .greedy-nav button .navicon,
 .greedy-nav button .navicon::before,
 .greedy-nav button .navicon::after {
-  background: #ffffff;
+  background: #ffffff !important;
+}
+
+/* Overflow dropdown */
+.greedy-nav .hidden-links {
+  background: var(--jw-teal) !important;
+}
+
+.greedy-nav .hidden-links a {
+  color: #ffffff !important;
 }
