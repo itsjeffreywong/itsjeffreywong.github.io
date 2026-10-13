@@ -110,13 +110,13 @@ Conference contributions are listed on the [presentations page]({{ '/talks/' | r
 
 ## Certifications
 
-**Sex and Gender in Primary Data Collection with Human Participants**
+**Sex and Gender in Primary Data Collection with Human Participants**<br>
 CIHR Institute of Gender and Health
 
-**San'yas Indigenous Cultural Safety Training**
+**San'yas Indigenous Cultural Safety Training**<br>
 Provincial Health Services Authority
 
-**Course on Research Ethics Based on the Tri-Council Policy Statement: Ethical Conduct for Research Involving Humans (TCPS 2: CORE 2022)**
+**Course on Research Ethics Based on the Tri-Council Policy Statement: Ethical Conduct for Research Involving Humans (TCPS 2: CORE 2022)**<br>
 Panel on Research Ethics
 
 ## Memberships
