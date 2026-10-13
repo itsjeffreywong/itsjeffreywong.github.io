@@ -4,6 +4,8 @@ title: Supporting connection through VR storytelling in acute care settings
 type: Oral presentation
 venue: UBC PATHS to Cure Neuroscience Research Conference
 location: Vancouver, BC, Canada
+latitude: 49.2827
+longitude: -123.1207
 collection: talks
 permalink: /talks/2025-03-01-vr-storytelling-acute-care/
 talk_type: Oral presentation
