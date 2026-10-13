@@ -19,36 +19,36 @@ Jeffrey Wong · Faculty of Health Sciences, Simon Fraser University · [jow3@sfu
 
 ## Education
 
-**MSc, Health Sciences** — Simon Fraser University, 2026–present<br>
+**MSc, Health Sciences** — Simon Fraser University, 2026 – Present<br>
 Supervisor: Dr. Kiffer Card
 
-**BA, Sociology** — Trinity Western University, 2022–2026
+**BA, Sociology** — Trinity Western University, 2022 – 2026
 
 ## Research experience
 
 **Graduate Research Assistant**<br>
 [Healthy Ecologies and Lifestyles (HEAL) Lab](https://heal-lab.ca)<br>
 Faculty of Health Sciences, Simon Fraser University<br>
-September 2026–present · Supervisor: Dr. Kiffer Card
+September 2026 – Present · Supervisor: Dr. Kiffer Card
 
 Provincial scale-up and evaluation of social prescribing for older adults in British Columbia.
 
 **Research Assistant and Knowledge Translation Lead**<br>
 [Innovation in Dementia and Aging (IDEA) Lab](https://idea.nursing.ubc.ca)<br>
 MacIsaac School of Nursing, The University of British Columbia<br>
-January 2025–September 2026 · Supervisor: Dr. Lillian Hung
+January 2025 – September 2026 · Supervisor: Dr. Lillian Hung
 
 Led a scoping review of community-based social supports for 2S/LGBTQ+ older adults, collaborated with community partners throughout the review, and managed lab social media.
 
 **Research Assistant**<br>
 Department of Psychology, Trinity Western University<br>
-November 2025–June 2026 · Supervisor: Dr. Yeeun Archer Lee
+November 2025 – June 2026 · Supervisor: Dr. Yeeun Archer Lee
 
 Contributed to a brief report and infographic on loneliness and social isolation among sexual and gender minority older adults, including secondary analysis of the Canadian Social Connection Survey.
 
 **Research Assistant**<br>
 Vancouver Coastal Health<br>
-September 2023–December 2024 · Supervisor: Ms. Margurite Wong
+September 2023 – December 2024 · Supervisor: Ms. Margurite Wong
 
 Supported implementation and evaluation of a virtual seated dance program for older adults in long-term care, with dissemination at research and gerontology conferences.
 
@@ -56,11 +56,11 @@ Supported implementation and evaluation of a virtual seated dance program for ol
 
 **Graduate Teaching Assistant**<br>
 Faculty of Health Sciences, Simon Fraser University<br>
-September 2026–present · HSCI 341: Fundamental Epidemiological Concepts and Approaches
+September 2026 – Present · HSCI 341: Fundamental Epidemiological Concepts and Approaches
 
 **Teaching Assistant**<br>
 Department of Sociology and Anthropology, Trinity Western University<br>
-January–May 2026 · SOCI 101: Introduction to Sociology
+January – May 2026 · SOCI 101: Introduction to Sociology
 
 See the [teaching page]({{ '/teaching/' | relative_url }}) for details.
 
@@ -97,8 +97,8 @@ Conference contributions are listed on the [presentations page]({{ '/talks/' | r
 
 ## Academic and community service
 
-- **Education Committee member**, Network of Networks (N2), 2024–present
-- **Co-Lead**, Canadian Social Prescribing Student Collective, 2024–present
+- **Education Committee member**, Network of Networks (N2), 2024 – Present
+- **Co-Lead**, Canadian Social Prescribing Student Collective, 2024 – Present
 - **Conference co-host**, N2 Annual Conference, 2025
 - **Volunteer**, Canadian Red Cross Health Equipment Loan Program, 2022–2025
 
@@ -108,15 +108,21 @@ Conference contributions are listed on the [presentations page]({{ '/talks/' | r
 - *Journal of Medical Internet Research* and *JMIR Research Protocols*, 2025
 - *Journal of the American Medical Directors Association*, 2025
 
-## Professional memberships
+## Certifications
 
-- AGE-WELL HQP Affiliate, 2025–present
-- Canadian Public Health Association, 2025–present
-- Canadian Association for Health Services and Policy Research, 2025–present
-- Canadian Association on Gerontology, 2023–present
-- Canadian Social Prescribing Student Collective, 2023–present
+**Sex and Gender in Primary Data Collection with Human Participants**
+CIHR Institute of Gender and Health
 
-## Training
+**San'yas Indigenous Cultural Safety Training**
+Provincial Health Services Authority
 
-- San'yas Indigenous Cultural Safety Training
-- TCPS 2: CORE 2022
+**Course on Research Ethics Based on the Tri-Council Policy Statement: Ethical Conduct for Research Involving Humans (TCPS 2: CORE 2022)**
+Panel on Research Ethics
+
+## Memberships
+
+- HQP Affiliate, AGE-WELL Network, 2025 – Present
+- Canadian Public Health Association (CPHA), 2025 – Present
+- Canadian Association for Health Services and Policy Research (CAHSPR), 2025 – Present
+- Canadian Association on Gerontology (CAG), 2023 – Present
+- Canadian Social Prescribing Student Collective (CSPSC), 2023 – Present
