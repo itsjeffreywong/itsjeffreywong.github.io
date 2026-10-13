@@ -469,3 +469,8 @@ body {
 .presentation-stats__item:nth-child(n + 3) {
   border: none !important;
 }
+
+/* Slightly darker presentation map */
+#presentation-map .leaflet-tile-pane {
+  filter: brightness(0.85) contrast(1.08);
+}
