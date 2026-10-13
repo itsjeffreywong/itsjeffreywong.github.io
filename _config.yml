@@ -25,7 +25,6 @@ author:
   avatar           : "profile.png"
   name             : "Jeffrey Wong"
   bio              : "MSc Student, Faculty of Health Sciences, Simon Fraser University"
-  location         : "Burnaby, BC, Canada"
   email            : "jow3@sfu.ca" 
 
   # Academic websites
@@ -37,7 +36,6 @@ author:
   orcid            : "https://orcid.org/0009-0005-8028-3585"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/myncbi/jeffrey.wong.7/bibliography/public"
   researchgate     : "https://www.researchgate.net/profile/Jeffrey-Wong-33"
   scopus           : # URL
   zotero           : # URL
