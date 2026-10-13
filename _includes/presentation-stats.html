@@ -1,0 +1,56 @@
+{% comment %}
+Automatically count every entry in the _talks collection.
+Co-authored oral/poster entries are included in their respective formats.
+{% endcomment %}
+{% assign presentation_total = site.talks | size %}
+{% assign poster_total = 0 %}
+{% assign oral_total = 0 %}
+{% assign workshop_total = 0 %}
+{% assign panel_total = 0 %}
+{% assign other_total = 0 %}
+
+{% for presentation in site.talks %}
+  {% assign presentation_format = presentation.talk_type | default: presentation.type | default: '' | downcase | strip %}
+  {% if presentation_format contains 'poster' %}
+    {% assign poster_total = poster_total | plus: 1 %}
+  {% elsif presentation_format contains 'oral' %}
+    {% assign oral_total = oral_total | plus: 1 %}
+  {% elsif presentation_format contains 'workshop' %}
+    {% assign workshop_total = workshop_total | plus: 1 %}
+  {% elsif presentation_format contains 'panel' %}
+    {% assign panel_total = panel_total | plus: 1 %}
+  {% else %}
+    {% assign other_total = other_total | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+<section class="presentation-stats" aria-label="Presentations by format">
+  <div class="presentation-stats__item">
+    <span class="presentation-stats__value">{{ presentation_total }}</span>
+    <span class="presentation-stats__label">Total presentations</span>
+  </div>
+  <div class="presentation-stats__item">
+    <span class="presentation-stats__value">{{ poster_total }}</span>
+    <span class="presentation-stats__label">Posters</span>
+  </div>
+  <div class="presentation-stats__item">
+    <span class="presentation-stats__value">{{ oral_total }}</span>
+    <span class="presentation-stats__label">Oral presentations</span>
+  </div>
+  <div class="presentation-stats__item">
+    <span class="presentation-stats__value">{{ workshop_total }}</span>
+    <span class="presentation-stats__label">Workshops</span>
+  </div>
+  {% if panel_total > 0 %}
+  <div class="presentation-stats__item">
+    <span class="presentation-stats__value">{{ panel_total }}</span>
+    <span class="presentation-stats__label">Panels</span>
+  </div>
+  {% endif %}
+  {% if other_total > 0 %}
+  <div class="presentation-stats__item">
+    <span class="presentation-stats__value">{{ other_total }}</span>
+    <span class="presentation-stats__label">Other formats</span>
+  </div>
+  {% endif %}
+</section>
