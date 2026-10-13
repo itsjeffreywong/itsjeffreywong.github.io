@@ -373,34 +373,35 @@ a {
     gap: 0.6rem 1.1rem;
   }
 }
-/* ===== Footer and sticky sidebar layout fix ===== */
 
-/* Keep the sidebar contained within the main page */
+/* ===== Footer and sidebar layout ===== */
+
+/* Use a normal document-flow layout */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  /* Override the older footer-height calculation */
+  margin-bottom: 0 !important;
+}
+
+/* Contain the floated sidebar and page content */
 #main {
   display: flow-root;
   position: relative;
+  flex: 1 0 auto;
 }
 
-/* Prevent floated content from overlapping the footer */
-.initial-content {
-  display: flow-root;
-}
-
-/* Footer stays in the normal document flow */
+/* Footer appears after the main content */
 .page__footer {
   position: static !important;
-  clear: both !important;
   bottom: auto !important;
   left: auto !important;
   right: auto !important;
+
+  clear: both !important;
+  flex-shrink: 0;
   width: 100%;
   margin-top: 2rem !important;
-}
-
-/* Preserve the normal sticky sidebar behaviour */
-@media (min-width: 1024px) {
-  #main .sidebar.sticky {
-    position: sticky;
-    top: 2rem;
-  }
 }
