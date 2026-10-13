@@ -271,3 +271,106 @@ a {
   font-size: 0.85rem;
   color: #777;
 }
+
+
+/* ===== Modern academic footer ===== */
+
+.page__footer {
+  background: #f5f7f7 !important;
+  border-top: 3px solid #2f7f86;
+  color: #46585a;
+}
+
+/* Top identity row */
+.jw-footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1.5rem 0 1.25rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid #dce4e4;
+}
+
+.page__footer .jw-footer__name {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #263d3f !important;
+  text-decoration: none;
+}
+
+.jw-footer__identity p {
+  margin: 0.25rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: #657275;
+}
+
+.jw-footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 1.4rem;
+}
+
+.page__footer .jw-footer__links a {
+  font-size: 0.84rem;
+  font-weight: 400;
+  color: #285e65 !important;
+  text-decoration: none;
+}
+
+.page__footer .jw-footer__links a:hover,
+.page__footer .jw-footer__name:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Original Academic Pages links */
+.page__footer-follow {
+  margin-top: 0;
+  padding-bottom: 0.6rem;
+}
+
+.page__footer-follow .social-icons {
+  margin: 0;
+  padding: 0;
+}
+
+.page__footer-follow a {
+  color: #516d70 !important;
+  font-size: 0.78rem;
+  font-weight: 400;
+}
+
+/* Original copyright and attribution */
+.page__footer-copyright {
+  padding-bottom: 0.75rem;
+  color: #657275;
+  font-size: 0.72rem;
+  line-height: 1.7;
+}
+
+.page__footer-copyright a {
+  color: #516d70 !important;
+  text-decoration: none;
+}
+
+.page__footer-copyright a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .jw-footer__top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .jw-footer__links {
+    gap: 0.6rem 1.1rem;
+  }
+}
+
