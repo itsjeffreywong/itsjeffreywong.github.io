@@ -462,3 +462,34 @@ body {
     border-top: 1px solid #e0e8e8;
   }
 }
+
+
+/* ===== Site-wide Lato typography ===== */
+html,
+body,
+button,
+input,
+select,
+textarea,
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav,
+.sidebar,
+.author__name,
+.author__bio,
+.author__urls,
+.page__content,
+.archive,
+.page__footer,
+.presentation-map-popup,
+.leaflet-popup-content {
+  font-family: "Lato", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title,
+.sidebar h2, .sidebar h3, .sidebar h4,
+figcaption {
+  font-family: "Lato", Arial, sans-serif;
+}
