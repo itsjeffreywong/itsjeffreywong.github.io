@@ -6,6 +6,16 @@ description: "Education, research experience, teaching, practice, and academic s
 ---
 
 Jeffrey Wong · Faculty of Health Sciences, Simon Fraser University · [jow3@sfu.ca](mailto:jow3@sfu.ca)
+<p class="cv-download">
+  <a href="{{ '/files/WongCV.pdf' | relative_url }}"
+     class="cv-download-button"
+     target="_blank"
+     rel="noopener">
+    <i class="fas fa-file-pdf" aria-hidden="true"></i>
+    Download CV (PDF)
+  </a>
+  <span class="cv-updated">Updated October 2026</span>
+</p>
 
 ## Education
 
