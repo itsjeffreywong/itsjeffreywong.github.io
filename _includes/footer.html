@@ -1,5 +1,26 @@
 {% include base_path %}
 
+<!-- Personal identity and contact links -->
+<div class="jw-footer__top">
+  <div class="jw-footer__identity">
+    <a class="jw-footer__name" href="{{ '/' | relative_url }}">
+      Jeffrey Wong
+    </a>
+    <p>Health services researcher · Simon Fraser University</p>
+  </div>
+
+  <nav class="jw-footer__links" aria-label="Footer links">
+    <a href="mailto:jow3@sfu.ca">Email</a>
+    <a href="https://scholar.google.com/citations?user=eZD4IMsAAAAJ">
+      Google Scholar
+    </a>
+    <a href="https://orcid.org/0009-0005-8028-3585">
+      ORCID
+    </a>
+  </nav>
+</div>
+
+<!-- Original Academic Pages follow section -->
 {% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
 <div class="page__footer-follow">
   <ul class="social-icons">
@@ -19,7 +40,8 @@
 </div>
 {% endif %}
 
+<!-- Original copyright, credits, and sitemap -->
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated {{ "now" | date: '%Y-%m-%d' }}, <a href="/sitemap/" style="text-transform: uppercase;">{{ site.data.ui-text[site.locale].site_map | default: "Sitemap" }}</a>
+  Site last updated {{ "now" | date: '%Y-%m-%d' }}, <a href="{{ '/sitemap/' | relative_url }}" style="text-transform: uppercase;">{{ site.data.ui-text[site.locale].site_map | default: "Sitemap" }}</a>
 </div>
