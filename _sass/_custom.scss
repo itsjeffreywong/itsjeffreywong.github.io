@@ -462,3 +462,10 @@ body {
     border-top: 1px solid #e0e8e8;
   }
 }
+
+/* Remove internal borders from presentation statistics */
+.presentation-stats__item,
+.presentation-stats__item + .presentation-stats__item,
+.presentation-stats__item:nth-child(n + 3) {
+  border: none !important;
+}
