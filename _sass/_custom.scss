@@ -373,20 +373,34 @@ a {
     gap: 0.6rem 1.1rem;
   }
 }
+/* ===== Footer and sticky sidebar layout fix ===== */
 
-/* ===== Fix Academic Pages footer overlapping content ===== */
+/* Keep the sidebar contained within the main page */
+#main {
+  display: flow-root;
+  position: relative;
+}
 
+/* Prevent floated content from overlapping the footer */
+.initial-content {
+  display: flow-root;
+}
+
+/* Footer stays in the normal document flow */
 .page__footer {
   position: static !important;
+  clear: both !important;
   bottom: auto !important;
   left: auto !important;
   right: auto !important;
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 2rem !important;
 }
 
-/* Disable the old footer-height compensation */
-body {
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
+/* Preserve the normal sticky sidebar behaviour */
+@media (min-width: 1024px) {
+  #main .sidebar.sticky {
+    position: sticky;
+    top: 2rem;
+  }
 }
