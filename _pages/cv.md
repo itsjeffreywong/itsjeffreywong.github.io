@@ -67,7 +67,7 @@ See the [teaching page]({{ '/teaching/' | relative_url }}) for details.
 ## Community practice
 
 **Seniors Community Connector**<br>
-Langley Senior Resources Society, 2025–2026
+Langley Senior Resources Society, 2025 – 2026
 
 Co-developed wellness plans with older adults aged 65 and over, connected people with community resources, and supported home visits and meal deliveries.
 
@@ -78,7 +78,7 @@ Developed a program evaluation framework and follow-up survey for social prescri
 
 ## Awards and fellowships
 
-- **EPIC-AT Fellowship**, AGE-WELL, 2026–2027 — CAD $8,000
+- **EPIC-AT Fellowship**, AGE-WELL, 2026 – 2027 — CAD $8,000
 - **Student Travel Grant**, Canadian Association on Gerontology, 2026 — CAD $330
 
 ## Publications
