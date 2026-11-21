@@ -1,5 +1,5 @@
 ---
-title: Aging Into Disconnection? Age Differences in Social Connection and Loneliness Among Sexual Minority Adults in Canada.
+title: Aging Into Disconnection? Age Differences in Social Connection and Loneliness Among Sexual Minority Adults in Canada
 category: reports
 date: '2026-01-01'
 date_precision: year
