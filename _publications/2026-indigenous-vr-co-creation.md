@@ -1,5 +1,5 @@
 ---
-title: 'Co-Creating Culturally Meaningful Virtual Reality with Indigenous Community Partners and Its Introduction in an Acute Hospital Environment.'
+title: 'Co-Creating Culturally Meaningful Virtual Reality with Indigenous Community Partners and Its Introduction in an Acute Hospital Environment'
 category: manuscripts
 date: '2026-10-29'
 publication_year: 2026
