@@ -1,5 +1,5 @@
 ---
-title: 'Facilitators and barriers to patient and public involvement in developing learning health systems within community health services: a scoping review.'
+title: 'Facilitators and barriers to patient and public involvement in developing learning health systems within community health services: a scoping review'
 category: manuscripts
 date: '2026-09-23'
 publication_year: 2026
