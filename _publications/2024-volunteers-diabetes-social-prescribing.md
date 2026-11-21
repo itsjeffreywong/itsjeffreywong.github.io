@@ -1,5 +1,5 @@
 ---
-title: 'A rapid systematic review of the effect of health or peer volunteers for diabetes self-management: Synthesizing evidence to guide social prescribing.'
+title: 'A rapid systematic review of the effect of health or peer volunteers for diabetes self-management: Synthesizing evidence to guide social prescribing'
 category: manuscripts
 date: '2024-12-31'
 publication_year: 2024
