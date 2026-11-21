@@ -1,5 +1,5 @@
 ---
-title: 'Perspectives on artificial intelligence-enabled socially assistive robots in long-term care: Experiences with LOVOT among people with dementia and family caregivers.'
+title: 'Perspectives on artificial intelligence-enabled socially assistive robots in long-term care: Experiences with LOVOT among people with dementia and family caregivers'
 category: manuscripts
 date: '2025-11-07'
 publication_year: 2025
