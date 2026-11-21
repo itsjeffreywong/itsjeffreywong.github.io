@@ -1,5 +1,5 @@
 ---
-title: 'Ethics-In-Practice and Sociotechnical Care: A Scoping Review of Artificial Intelligence-Enabled Robots for Social Support in Later Life.'
+title: 'Ethics-In-Practice and Sociotechnical Care: A Scoping Review of Artificial Intelligence-Enabled Robots for Social Support in Later Life'
 category: conferences
 date: '2026-07-07'
 publication_year: 2026
