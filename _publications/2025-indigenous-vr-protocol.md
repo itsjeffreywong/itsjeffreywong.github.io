@@ -1,5 +1,5 @@
 ---
-title: 'Best practices and practical strategies for co-designing virtual reality with Indigenous peoples: A scoping review protocol.'
+title: 'Best practices and practical strategies for co-designing virtual reality with Indigenous peoples: A scoping review protocol'
 category: manuscripts
 date: '2025-06-02'
 publication_year: 2025
