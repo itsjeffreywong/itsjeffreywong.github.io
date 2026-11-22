@@ -408,17 +408,16 @@ body {
 }
 
 
-/* ===== Automatic presentation statistics ===== */
+/* ===== Presentation statistics: compact, cohesive bar ===== */
 .presentation-stats {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0;
-  margin: 1.5rem 0 1.75rem;
-  border: 1px solid rgba(47, 127, 134, 0.18);
-  border-top: 3px solid #2f7f86;
+  gap: 1rem;
+  margin: 1.4rem 0 1.75rem;
+  padding: 1.15rem 1.3rem;
+  background: #153f43;
+  border: 0;
   border-radius: 10px;
-  background: #f8fafa;
-  overflow: hidden;
 }
 
 .presentation-stats__item {
@@ -426,48 +425,33 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 0.3rem;
-  padding: 1rem 0.9rem;
+  min-width: 0;
+  gap: 0.25rem;
+  padding: 0;
+  border: 0;
   text-align: left;
 }
 
-.presentation-stats__item + .presentation-stats__item {
-  border-left: 1px solid #e0e8e8;
-}
-
 .presentation-stats__value {
-  color: #23646a;
-  font-size: clamp(1.55rem, 2.5vw, 2rem);
-  font-weight: 650;
+  color: #f1b562;
+  font-size: clamp(1.65rem, 2.6vw, 2.05rem);
+  font-weight: 700;
   line-height: 1.1;
   font-variant-numeric: tabular-nums;
 }
 
 .presentation-stats__label {
-  color: #526466;
+  color: #edf4f4;
   font-size: 0.78rem;
-  line-height: 1.3;
+  line-height: 1.35;
 }
 
 @media (max-width: 600px) {
   .presentation-stats {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.15rem 0.8rem;
+    padding: 1.1rem;
   }
-
-  .presentation-stats__item:nth-child(odd) {
-    border-left: 0;
-  }
-
-  .presentation-stats__item:nth-child(n + 3) {
-    border-top: 1px solid #e0e8e8;
-  }
-}
-
-/* Remove internal borders from presentation statistics */
-.presentation-stats__item,
-.presentation-stats__item + .presentation-stats__item,
-.presentation-stats__item:nth-child(n + 3) {
-  border: none !important;
 }
 
 /* Slightly darker presentation map */
