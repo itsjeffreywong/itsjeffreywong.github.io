@@ -27,6 +27,13 @@
     border: 1px solid #ddd;
     border-radius: 8px;
   }
+
+  /* At global zoom, the world tile is 256px tall. Avoid empty bands on phones. */
+  @media (max-width: 600px) {
+    #presentation-map {
+      height: 256px;
+    }
+  }
 </style>
 
 <div id="presentation-map"></div>
@@ -177,6 +184,12 @@ marker.on("mouseout", function () {
       padding: [35, 35],
       maxZoom: 6
     });
+  }
+
+  // Centre the world vertically when mobile fitBounds selects zoom level 0.
+  // This removes the north/south blank bands without hiding the mapped cities.
+  if (window.matchMedia("(max-width: 600px)").matches && map.getZoom() === 0) {
+    map.panTo([0, map.getCenter().lng], { animate: false });
   }
 })();
 </script>
