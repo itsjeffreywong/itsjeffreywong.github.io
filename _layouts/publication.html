@@ -14,7 +14,9 @@ layout: default
         {{ content }}
         <h2>Citation</h2>
         <p>{{ page.citation }}</p>
-        <p><a href="{{ page.paperurl }}" class="btn">{{ page.paper_label | default: 'Read publication' }}</a></p>
+          {% if page.paperurl %}
+            <p><a href="{{ page.paperurl }}" class="btn">{{ page.paper_label | default: 'Read publication' }}</a></p>
+          {% endif %}
         <p><a href="{{ '/publications/' | relative_url }}">All publications</a></p>
       </section>
     </div>
