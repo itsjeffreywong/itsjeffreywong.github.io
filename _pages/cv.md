@@ -14,7 +14,7 @@ Jeffrey Wong · Faculty of Health Sciences, Simon Fraser University · [jow3@sfu
     <i class="fas fa-file-pdf" aria-hidden="true"></i>
     Download CV (PDF)
   </a>
-  <span class="cv-updated">Updated October 2026</span>
+  <span class="cv-updated">Updated November 2026</span>
 </p>
 
 ## Education
@@ -56,11 +56,11 @@ Supported implementation and evaluation of a virtual seated dance program for ol
 
 **Graduate Teaching Assistant**<br>
 Faculty of Health Sciences, Simon Fraser University<br>
-September 2026 – Present · HSCI 341: Fundamental Epidemiological Concepts and Approaches
+September 2026 – Present · Fundamental Epidemiological Concepts and Approaches (HSCI 341)
 
 **Teaching Assistant**<br>
 Department of Sociology and Anthropology, Trinity Western University<br>
-January – May 2026 · SOCI 101: Introduction to Sociology
+January – May 2026 · Introduction to Sociology (SOCI 101)
 
 See the [teaching page]({{ '/teaching/' | relative_url }}) for details.
 
