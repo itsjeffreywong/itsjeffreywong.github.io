@@ -19,6 +19,13 @@
   z-index: 1;
 }
 
+/* Match presentation map typography to the site */
+#presentation-map.leaflet-container,
+#presentation-map .leaflet-popup-content,
+#presentation-map .leaflet-control {
+  font-family: "Lato", Arial, sans-serif;
+}
+
 .presentation-map-popup {
   font-size: 0.9rem;
   line-height: 1.4;
