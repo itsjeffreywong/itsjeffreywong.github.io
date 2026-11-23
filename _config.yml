@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Jeffrey Wong"
 title_separator          : "-"
 name                     : &name "Jeffrey Wong"
-description              : &description "Jeffrey Wong is a health services researcher at Simon Fraser University researching social prescribing, primary care, and digital health implementation."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Health services researcher at Simon Fraser University researching social prescribing and digital health implementation."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://jeffreywong.co"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "itsjeffreywong/itsjeffreywong.github.io"
