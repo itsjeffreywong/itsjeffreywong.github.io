@@ -8,7 +8,7 @@ citation: 'Moros Villarroel, V., Cheung, M., Tam, E., <strong>Wong, J.</strong>,
 collection: publications
 layout: publication
 permalink: /publication/2026-smartlittle-dolls-protocol/
-description: A scoping review of engaging patients and the public to improve community health services in learning health systems.
+description: A protocol for a qualitative study on implementing the SmartLittle Dolls in two Canadian long-term care homes.
 share: false
 ---
 
