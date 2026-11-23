@@ -1,7 +1,7 @@
 ---
 title: 'Community-based social supports for 2S/LGBTQ+ older adults in Canada: A scoping review protocol'
 category: manuscripts
-date: '2026-11-23'
+date: '2026-11-24'
 publication_year: in-press
 venue: PLOS ONE
 citation: '<strong>Wong, J.</strong>, Kreiter, E., Kia, H., Steeves, K., Laurence, M., Jung Pero, S., Wighton, M. B., Thorsten, D., & Hung, L. (in-press). Community-based social supports for 2S/LGBTQ+ older adults in Canada: A scoping review protocol. <em>PLOS ONE</em>.'
